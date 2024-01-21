@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types';
 
 // material-ui
@@ -9,7 +10,7 @@ import DrawerHeaderStyled from './DrawerHeaderStyled';
 import Logo from 'components/Logo';
 
 // ==============================|| DRAWER HEADER ||============================== //
-
+//102136800528
 const DrawerHeader = ({ open }) => {
   const theme = useTheme();
 
@@ -18,7 +19,7 @@ const DrawerHeader = ({ open }) => {
     <DrawerHeaderStyled theme={theme} open={open}>
       <Stack direction="row" spacing={1} alignItems="center">
         <Logo />
-        <Chip
+        {/* <Chip
           label={process.env.REACT_APP_VERSION}
           size="small"
           sx={{ height: 16, '& .MuiChip-label': { fontSize: '0.625rem', py: 0.25 } }}
@@ -26,7 +27,7 @@ const DrawerHeader = ({ open }) => {
           href="https://github.com/codedthemes/mantis-free-react-admin-template"
           target="_blank"
           clickable
-        />
+        /> */}
       </Stack>
     </DrawerHeaderStyled>
   );

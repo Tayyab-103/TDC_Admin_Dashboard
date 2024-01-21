@@ -26,6 +26,69 @@ const utilities = {
   type: 'group',
   children: [
     {
+      id: 'util-members',
+      title: 'Member',
+      type: 'item',
+      url: '/members',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'util-departments',
+      title: 'Department',
+      type: 'item',
+      url: '/department',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'util-teams',
+      title: 'Teams',
+      type: 'item',
+      url: '/teams',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'util-projects',
+      title: 'Projects',
+      type: 'item',
+      url: '/projects',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'util-leads',
+      title: 'Leads',
+      type: 'item',
+      url: '/leads',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'util-clients',
+      title: 'Clients',
+      type: 'item',
+      url: '/clients',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'util-tasks',
+      title: 'Task',
+      type: 'item',
+      url: '/task',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'util-payroll',
+      title: 'Payroll',
+      type: 'item',
+      url: '/payroll',
+      icon: icons.FontSizeOutlined
+    },
+    {
+      id: 'util-earning',
+      title: 'Earning',
+      type: 'item',
+      url: '/earning',
+      icon: icons.FontSizeOutlined
+    },
+    {
       id: 'util-typography',
       title: 'Typography',
       type: 'item',
@@ -51,8 +114,8 @@ const utilities = {
       title: 'Ant Icons',
       type: 'item',
       url: '/icons/ant',
-      icon: icons.AntDesignOutlined,
-      breadcrumbs: false
+      icon: icons.AntDesignOutlined
+      // breadcrumbs: false
     }
   ]
 };

@@ -77,7 +77,6 @@ Mantis offers everything needed to build an advanced dashboard application. In t
 ## Getting started
 
 Clone from GitHub
-
 ```
 git clone https://github.com/codedthemes/mantis-free-react-admin-template.git
 yarn
