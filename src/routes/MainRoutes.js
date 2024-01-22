@@ -1,15 +1,17 @@
+/* eslint-disable no-unused-vars */
 import { lazy } from 'react';
 
 // project import
 import Loadable from 'components/Loadable';
 import MainLayout from 'layout/MainLayout';
+// import MembersTable from 'pages/members/components/MembersTable';
 
 // render - dashboard
 // const DashboardDefault = Loadable(lazy(() => import('pages/dashboard')));
 const WelcomeDefault = Loadable(lazy(() => import('pages/welcome')));
 
 // render - sample page
-const SamplePage = Loadable(lazy(() => import('pages/extra-pages/SamplePage')));
+const MembersTable = Loadable(lazy(() => import('pages/members/index')));
 
 // render - utilities
 const Typography = Loadable(lazy(() => import('pages/components-overview/Typography')));
@@ -41,8 +43,8 @@ const MainRoutes = {
       ]
     },
     {
-      path: 'sample-page',
-      element: <SamplePage />
+      path: 'members',
+      element: <MembersTable />
     },
     {
       path: 'shadow',
